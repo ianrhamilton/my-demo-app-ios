@@ -6,85 +6,101 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F60027FAE4C10A68998A12C22EDF64F3 /* TestFairy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 00205DB52B6B1E770BD75EA30CC76DC6 /* Build configuration list for PBXAggregateTarget "TestFairy" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TestFairy;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0D4E6825BE4DDF35F716FB021A264C80 /* Pods-My Demo App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FABB0969C24D9DB6E6A2C444492F12 /* Pods-My Demo App-dummy.m */; };
-		1F8CA56DDB4D3C03A8E68ADBE17E1936 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264405F5C690EB3F5CCD55645FF0A804 /* FormTextField.swift */; };
-		20DB58EA54BF2EF472C44F2658FC5A89 /* Pods-My Demo App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 178F1352DBE276A8C24237C7FF9A38E7 /* Pods-My Demo App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27719E1719165FEBCA7D1DAF939C9E72 /* FormTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FFEBB06BE95019319AAA9CDE44F0EB /* FormTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BCB5765265D70CA24079AB63949E4D2 /* DecimalInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8356A6F6D61C8FE663FE6FF3D2C6DA8E /* DecimalInputValidator.swift */; };
-		3E4BC78628D0BAF038D6085DA3397AE5 /* InputValidatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3662039A435AF52A6D0C9E39E123450B /* InputValidatable.swift */; };
-		51C970BDD37360B18DD62D878937E81D /* FormTextFieldTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77261149083143C7137F3173E67B69D1 /* FormTextFieldTypeManager.swift */; };
+		1F8CA56DDB4D3C03A8E68ADBE17E1936 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99715252F25E3E0EEE1E4DA934007337 /* FormTextField.swift */; };
+		27719E1719165FEBCA7D1DAF939C9E72 /* FormTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5A18650136CA39031BE669DA3D6E0A /* FormTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BCB5765265D70CA24079AB63949E4D2 /* DecimalInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489065B0E16883D8B8D66B7F5C36139 /* DecimalInputValidator.swift */; };
+		3E4BC78628D0BAF038D6085DA3397AE5 /* InputValidatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EC76F5F61F5E49C3B1C13DD705D9E /* InputValidatable.swift */; };
+		51C970BDD37360B18DD62D878937E81D /* FormTextFieldTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B763E884F4D91E0B4D06218A08F799 /* FormTextFieldTypeManager.swift */; };
+		5B224D2E1BC63C6AF54D4B552F9348A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7E519DF539EF53ABE7880B88A4A637AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		8924CFC806352CD0EEDB6C971DC8DCA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		8D7E3F259A58ED961E9F7262D250CD68 /* FormTextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2B3848EB12B35DED304A26FD53400 /* FormTextFieldClearButton.swift */; };
-		9ACBACAC93045EFB130E59C2681D1384 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DED39391144746CF36BAE6C92185F8 /* Validation.swift */; };
-		A341742B21F5CB41E97300E76C47E32C /* FormTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E515508300D1F96B8C11DB24FCA3CB5D /* FormTextField-dummy.m */; };
-		AB6B7AFA23757E4018C35C0D4E87B903 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B83C98FA761398E05EC00613CF2BBF8 /* InputValidator.swift */; };
-		B35570E42B0B5DA2EA7FE6FCE711CC24 /* RequiredInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA870DBAB3571BC295068502C01B23B1 /* RequiredInputValidator.swift */; };
-		B5F859BBA322A177500F16B37F426E70 /* CardExpirationDateInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E554C95AE121440B4F95F143C646E4 /* CardExpirationDateInputValidator.swift */; };
-		D50B41343936922017DFA46EE21ECB6B /* FormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CED442E656A3151EA130EA578940AB2 /* FormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40BBB1782503594F6FA87CA419F42B3 /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313736C5C50349C05F4698E342200614 /* Formattable.swift */; };
-		E89393F75794EA2425598A80BF7AB739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		F019BD2498636C09671A70AF57B559CD /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A38528CB4EC434AEE76C6401521AD /* CardNumberFormatter.swift */; };
-		F5332736303B5D0E5F149B72F3819346 /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944801C4BBFD628EE23FE05C1995F162 /* CardExpirationDateFormatter.swift */; };
+		8D7E3F259A58ED961E9F7262D250CD68 /* FormTextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6071302488A86A7A89133FEA25E6B /* FormTextFieldClearButton.swift */; };
+		9ACBACAC93045EFB130E59C2681D1384 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F245B38CC304F6DE364D8552BC6142 /* Validation.swift */; };
+		A341742B21F5CB41E97300E76C47E32C /* FormTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C17B79003428604816238833F092B5D9 /* FormTextField-dummy.m */; };
+		AB6B7AFA23757E4018C35C0D4E87B903 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33453054E803C8DBFC87D64F7D9CE208 /* InputValidator.swift */; };
+		B35570E42B0B5DA2EA7FE6FCE711CC24 /* RequiredInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F152B593F0BA5ECC4E7426A06809557 /* RequiredInputValidator.swift */; };
+		B5F859BBA322A177500F16B37F426E70 /* CardExpirationDateInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE3B6C6A2F87A317A2F96E3F478A39 /* CardExpirationDateInputValidator.swift */; };
+		C4A44643E12395A737C0B90E359D0220 /* Pods-My Demo App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2006E0B0151AB539808DC899C3B5F8CE /* Pods-My Demo App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50B41343936922017DFA46EE21ECB6B /* FormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6A84A42A9FD71ED0AC59DB4BE4EF08 /* FormTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40BBB1782503594F6FA87CA419F42B3 /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B070BE1B9DD8D81453F5EF3524630E7 /* Formattable.swift */; };
+		F019BD2498636C09671A70AF57B559CD /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6368F46A8258A34095B10F0D8E14167 /* CardNumberFormatter.swift */; };
+		F5332736303B5D0E5F149B72F3819346 /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5DF354ED805639D4872C217329179D /* CardExpirationDateFormatter.swift */; };
+		FE83D80276231D9DC75163815C6EEFCA /* Pods-My Demo App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 007C787DA31B73DF99EA0392B99F14A6 /* Pods-My Demo App-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FBDD16E89EAB93F9B6F9F2E6E4CFA870 /* PBXContainerItemProxy */ = {
+		B96D3794301FEF8B0088BBCD7C06C410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA56E39EF6C470C3DFC0A23077F6D611;
 			remoteInfo = FormTextField;
 		};
+		E6F5971D06FFB99B287641059BCCBA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60027FAE4C10A68998A12C22EDF64F3;
+			remoteInfo = TestFairy;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1192086DF88A51045C32E446BD2B8BB8 /* FormTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FormTextField.modulemap; sourceTree = "<group>"; };
+		007C787DA31B73DF99EA0392B99F14A6 /* Pods-My Demo App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-My Demo App-dummy.m"; sourceTree = "<group>"; };
+		00FBE26765F58C1D9DEA583B5A5C4536 /* FormTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-prefix.pch"; sourceTree = "<group>"; };
+		09658134EF3E8FF70E7E8DAEA44A284C /* Pods-My Demo App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-My Demo App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		130F86DE4394AAFB62D69486F1BA4717 /* Pods-My Demo App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-My Demo App"; path = Pods_My_Demo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		178F1352DBE276A8C24237C7FF9A38E7 /* Pods-My Demo App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-My Demo App-umbrella.h"; sourceTree = "<group>"; };
-		197D781AA15F58468C5D8BC7861F0F40 /* Pods-My Demo App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My Demo App-frameworks.sh"; sourceTree = "<group>"; };
-		264405F5C690EB3F5CCD55645FF0A804 /* FormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextField.swift; path = Source/FormTextField.swift; sourceTree = "<group>"; };
-		2B83C98FA761398E05EC00613CF2BBF8 /* InputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidator.swift; path = Source/InputValidator/InputValidator.swift; sourceTree = "<group>"; };
-		2CED442E656A3151EA130EA578940AB2 /* FormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormTextField.h; path = Source/FormTextField.h; sourceTree = "<group>"; };
-		30A424E9C4FD61E012E384DB04D362CD /* Pods-My Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Demo App.release.xcconfig"; sourceTree = "<group>"; };
-		313736C5C50349C05F4698E342200614 /* Formattable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formattable.swift; path = Source/Formatter/Formattable.swift; sourceTree = "<group>"; };
+		1489065B0E16883D8B8D66B7F5C36139 /* DecimalInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalInputValidator.swift; path = Source/InputValidator/DecimalInputValidator.swift; sourceTree = "<group>"; };
+		14CE3B6C6A2F87A317A2F96E3F478A39 /* CardExpirationDateInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateInputValidator.swift; path = Source/InputValidator/CardExpirationDateInputValidator.swift; sourceTree = "<group>"; };
+		1F152B593F0BA5ECC4E7426A06809557 /* RequiredInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredInputValidator.swift; path = Source/InputValidator/RequiredInputValidator.swift; sourceTree = "<group>"; };
+		2006E0B0151AB539808DC899C3B5F8CE /* Pods-My Demo App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-My Demo App-umbrella.h"; sourceTree = "<group>"; };
+		24599A3E071406E6D4A22B2AC6CE2603 /* Pods-My Demo App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My Demo App-resources.sh"; sourceTree = "<group>"; };
 		31FB42D7B4767AE8B951CCBB850BA1FD /* FormTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FormTextField; path = FormTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3662039A435AF52A6D0C9E39E123450B /* InputValidatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidatable.swift; path = Source/InputValidator/InputValidatable.swift; sourceTree = "<group>"; };
-		396B188708FB5C783BA112E7881ED81E /* FormTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FormTextField-Info.plist"; sourceTree = "<group>"; };
-		47FFEBB06BE95019319AAA9CDE44F0EB /* FormTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-umbrella.h"; sourceTree = "<group>"; };
-		63E554C95AE121440B4F95F143C646E4 /* CardExpirationDateInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateInputValidator.swift; path = Source/InputValidator/CardExpirationDateInputValidator.swift; sourceTree = "<group>"; };
-		6D427A82FBD752D197F023BED881F429 /* FormTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-prefix.pch"; sourceTree = "<group>"; };
-		73DED39391144746CF36BAE6C92185F8 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation/Validation.swift; sourceTree = "<group>"; };
-		77261149083143C7137F3173E67B69D1 /* FormTextFieldTypeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldTypeManager.swift; path = Source/FormTextFieldTypeManager.swift; sourceTree = "<group>"; };
-		7F3A38528CB4EC434AEE76C6401521AD /* CardNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberFormatter.swift; path = Source/Formatter/CardNumberFormatter.swift; sourceTree = "<group>"; };
-		80F85387C605509644179643EE021FEB /* Pods-My Demo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Demo App.debug.xcconfig"; sourceTree = "<group>"; };
-		8356A6F6D61C8FE663FE6FF3D2C6DA8E /* DecimalInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalInputValidator.swift; path = Source/InputValidator/DecimalInputValidator.swift; sourceTree = "<group>"; };
-		92FA2191864FE69236DA5EAC393F14BA /* Pods-My Demo App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-My Demo App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		944801C4BBFD628EE23FE05C1995F162 /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateFormatter.swift; path = Source/Formatter/CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
+		33453054E803C8DBFC87D64F7D9CE208 /* InputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidator.swift; path = Source/InputValidator/InputValidator.swift; sourceTree = "<group>"; };
+		3B070BE1B9DD8D81453F5EF3524630E7 /* Formattable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formattable.swift; path = Source/Formatter/Formattable.swift; sourceTree = "<group>"; };
+		3CD6071302488A86A7A89133FEA25E6B /* FormTextFieldClearButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldClearButton.swift; path = Source/FormTextFieldClearButton.swift; sourceTree = "<group>"; };
+		41F8BCF6A085440024C13C225971F1BC /* Pods-My Demo App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My Demo App-Info.plist"; sourceTree = "<group>"; };
+		4F9DFE85653A6DD8B6E28EFA25D4FE0D /* FormTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FormTextField-Info.plist"; sourceTree = "<group>"; };
+		5075239F8E863F69AA6B5E3E6CFE7B44 /* TestFairy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestFairy.debug.xcconfig; sourceTree = "<group>"; };
+		53DE17DD43AE388ACC45CA1926022410 /* Pods-My Demo App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-My Demo App.modulemap"; sourceTree = "<group>"; };
+		5E6A84A42A9FD71ED0AC59DB4BE4EF08 /* FormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormTextField.h; path = Source/FormTextField.h; sourceTree = "<group>"; };
+		6E5A18650136CA39031BE669DA3D6E0A /* FormTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-umbrella.h"; sourceTree = "<group>"; };
+		6F2DD8F0D3DB7058CC3FD45321E1B911 /* TestFairy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		799E01E7F22F76D9868C13ACD4FEDF0F /* FormTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FormTextField.modulemap; sourceTree = "<group>"; };
+		8052A9C932B42F33F3B866326F807CEF /* Pods-My Demo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Demo App.debug.xcconfig"; sourceTree = "<group>"; };
+		84F245B38CC304F6DE364D8552BC6142 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation/Validation.swift; sourceTree = "<group>"; };
+		8D2EC76F5F61F5E49C3B1C13DD705D9E /* InputValidatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidatable.swift; path = Source/InputValidator/InputValidatable.swift; sourceTree = "<group>"; };
+		98BF95BCDF2FE61505EE63AD22562154 /* FormTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormTextField.debug.xcconfig; sourceTree = "<group>"; };
+		99715252F25E3E0EEE1E4DA934007337 /* FormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextField.swift; path = Source/FormTextField.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9C66D0F6F9191D5ED8A230567F2A9EC /* Pods-My Demo App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My Demo App-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9FABB0969C24D9DB6E6A2C444492F12 /* Pods-My Demo App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-My Demo App-dummy.m"; sourceTree = "<group>"; };
-		AA870DBAB3571BC295068502C01B23B1 /* RequiredInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredInputValidator.swift; path = Source/InputValidator/RequiredInputValidator.swift; sourceTree = "<group>"; };
-		C412D993C20B92FB9836A1936E6ED570 /* Pods-My Demo App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-My Demo App.modulemap"; sourceTree = "<group>"; };
-		CDF2B3848EB12B35DED304A26FD53400 /* FormTextFieldClearButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldClearButton.swift; path = Source/FormTextFieldClearButton.swift; sourceTree = "<group>"; };
-		CE3A666C709A1C7E8A378AA61B2EF7F7 /* FormTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormTextField.release.xcconfig; sourceTree = "<group>"; };
-		D205B3C2FC1C83F02330DAC1FF90EB65 /* Pods-My Demo App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My Demo App-Info.plist"; sourceTree = "<group>"; };
+		A9375FF332035949149144CAED1DF673 /* Pods-My Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Demo App.release.xcconfig"; sourceTree = "<group>"; };
+		AF5DF354ED805639D4872C217329179D /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateFormatter.swift; path = Source/Formatter/CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
+		C17B79003428604816238833F092B5D9 /* FormTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FormTextField-dummy.m"; sourceTree = "<group>"; };
+		C7B763E884F4D91E0B4D06218A08F799 /* FormTextFieldTypeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldTypeManager.swift; path = Source/FormTextFieldTypeManager.swift; sourceTree = "<group>"; };
+		CCD3D8E677D2E4663EAE24FA79031144 /* Pods-My Demo App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My Demo App-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1F354524D626B360170C6F2C99C26EF /* Pods-My Demo App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My Demo App-frameworks.sh"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E32B7B088ED1491F8F639C30F48A6DD3 /* FormTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormTextField.debug.xcconfig; sourceTree = "<group>"; };
-		E515508300D1F96B8C11DB24FCA3CB5D /* FormTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FormTextField-dummy.m"; sourceTree = "<group>"; };
+		D88373AD3A39744B26466F5BD4C2E543 /* TestFairy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestFairy.release.xcconfig; sourceTree = "<group>"; };
+		DECBDE85B166F7C5BE7665862C302642 /* upload-dsym.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		E6368F46A8258A34095B10F0D8E14167 /* CardNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberFormatter.swift; path = Source/Formatter/CardNumberFormatter.swift; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB9BD9217B14A8A18E827F23F0F82ED1 /* FormTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormTextField.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38548754F2C7C182205AA6F644F213FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E89393F75794EA2425598A80BF7AB739 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8283A41750A8B79B91F5C8185B949E4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,17 +110,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D21F86F863C3B6BC84BF7A17BFC8378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B224D2E1BC63C6AF54D4B552F9348A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15EE1CC7A38C5C3CCAA287672D473760 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8E82B65DF13A7D8EA881458AA98C496 /* Pods-My Demo App */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,19 +129,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		36251883C677F1058AFB3F0254E44D79 /* Support Files */ = {
+		164D636BCFB974C7E749A169E4D10904 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1192086DF88A51045C32E446BD2B8BB8 /* FormTextField.modulemap */,
-				E515508300D1F96B8C11DB24FCA3CB5D /* FormTextField-dummy.m */,
-				396B188708FB5C783BA112E7881ED81E /* FormTextField-Info.plist */,
-				6D427A82FBD752D197F023BED881F429 /* FormTextField-prefix.pch */,
-				47FFEBB06BE95019319AAA9CDE44F0EB /* FormTextField-umbrella.h */,
-				E32B7B088ED1491F8F639C30F48A6DD3 /* FormTextField.debug.xcconfig */,
-				CE3A666C709A1C7E8A378AA61B2EF7F7 /* FormTextField.release.xcconfig */,
+				5075239F8E863F69AA6B5E3E6CFE7B44 /* TestFairy.debug.xcconfig */,
+				D88373AD3A39744B26466F5BD4C2E543 /* TestFairy.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FormTextField";
+			path = "../Target Support Files/TestFairy";
+			sourceTree = "<group>";
+		};
+		42EE560BC2CEF068569FDC8ADBB2B4A5 /* FormTextField */ = {
+			isa = PBXGroup;
+			children = (
+				AF5DF354ED805639D4872C217329179D /* CardExpirationDateFormatter.swift */,
+				14CE3B6C6A2F87A317A2F96E3F478A39 /* CardExpirationDateInputValidator.swift */,
+				E6368F46A8258A34095B10F0D8E14167 /* CardNumberFormatter.swift */,
+				1489065B0E16883D8B8D66B7F5C36139 /* DecimalInputValidator.swift */,
+				3B070BE1B9DD8D81453F5EF3524630E7 /* Formattable.swift */,
+				5E6A84A42A9FD71ED0AC59DB4BE4EF08 /* FormTextField.h */,
+				99715252F25E3E0EEE1E4DA934007337 /* FormTextField.swift */,
+				3CD6071302488A86A7A89133FEA25E6B /* FormTextFieldClearButton.swift */,
+				C7B763E884F4D91E0B4D06218A08F799 /* FormTextFieldTypeManager.swift */,
+				8D2EC76F5F61F5E49C3B1C13DD705D9E /* InputValidatable.swift */,
+				33453054E803C8DBFC87D64F7D9CE208 /* InputValidator.swift */,
+				1F152B593F0BA5ECC4E7426A06809557 /* RequiredInputValidator.swift */,
+				84F245B38CC304F6DE364D8552BC6142 /* Validation.swift */,
+				9A5277AA082AD96D202863C5F027C9C2 /* Support Files */,
+			);
+			name = FormTextField;
+			path = FormTextField;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -137,6 +170,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		60F40F86487DC204EF370A101A367405 /* TestFairy */ = {
+			isa = PBXGroup;
+			children = (
+				6F2DD8F0D3DB7058CC3FD45321E1B911 /* TestFairy.h */,
+				68EA663FA92F4E14EC5C098BE43E5010 /* Resources */,
+				164D636BCFB974C7E749A169E4D10904 /* Support Files */,
+			);
+			name = TestFairy;
+			path = TestFairy;
+			sourceTree = "<group>";
+		};
 		66AFBDDD6869B351E64AE8A207C80AE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,34 +190,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CF6E5AF780A19801FE4A8110053274F /* Pods */ = {
+		68EA663FA92F4E14EC5C098BE43E5010 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7D4F09DF2100353E476389903CD63 /* FormTextField */,
+				DECBDE85B166F7C5BE7665862C302642 /* upload-dsym.sh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84D98EB386677A3179611AAA932ECC58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42EE560BC2CEF068569FDC8ADBB2B4A5 /* FormTextField */,
+				60F40F86487DC204EF370A101A367405 /* TestFairy */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CEA7D4F09DF2100353E476389903CD63 /* FormTextField */ = {
+		9A5277AA082AD96D202863C5F027C9C2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				944801C4BBFD628EE23FE05C1995F162 /* CardExpirationDateFormatter.swift */,
-				63E554C95AE121440B4F95F143C646E4 /* CardExpirationDateInputValidator.swift */,
-				7F3A38528CB4EC434AEE76C6401521AD /* CardNumberFormatter.swift */,
-				8356A6F6D61C8FE663FE6FF3D2C6DA8E /* DecimalInputValidator.swift */,
-				313736C5C50349C05F4698E342200614 /* Formattable.swift */,
-				2CED442E656A3151EA130EA578940AB2 /* FormTextField.h */,
-				264405F5C690EB3F5CCD55645FF0A804 /* FormTextField.swift */,
-				CDF2B3848EB12B35DED304A26FD53400 /* FormTextFieldClearButton.swift */,
-				77261149083143C7137F3173E67B69D1 /* FormTextFieldTypeManager.swift */,
-				3662039A435AF52A6D0C9E39E123450B /* InputValidatable.swift */,
-				2B83C98FA761398E05EC00613CF2BBF8 /* InputValidator.swift */,
-				AA870DBAB3571BC295068502C01B23B1 /* RequiredInputValidator.swift */,
-				73DED39391144746CF36BAE6C92185F8 /* Validation.swift */,
-				36251883C677F1058AFB3F0254E44D79 /* Support Files */,
+				799E01E7F22F76D9868C13ACD4FEDF0F /* FormTextField.modulemap */,
+				C17B79003428604816238833F092B5D9 /* FormTextField-dummy.m */,
+				4F9DFE85653A6DD8B6E28EFA25D4FE0D /* FormTextField-Info.plist */,
+				00FBE26765F58C1D9DEA583B5A5C4536 /* FormTextField-prefix.pch */,
+				6E5A18650136CA39031BE669DA3D6E0A /* FormTextField-umbrella.h */,
+				98BF95BCDF2FE61505EE63AD22562154 /* FormTextField.debug.xcconfig */,
+				FB9BD9217B14A8A18E827F23F0F82ED1 /* FormTextField.release.xcconfig */,
 			);
-			name = FormTextField;
-			path = FormTextField;
+			name = "Support Files";
+			path = "../Target Support Files/FormTextField";
+			sourceTree = "<group>";
+		};
+		C3CC403571E6B06F4BF1DC96E35B4B76 /* Pods-My Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				53DE17DD43AE388ACC45CA1926022410 /* Pods-My Demo App.modulemap */,
+				09658134EF3E8FF70E7E8DAEA44A284C /* Pods-My Demo App-acknowledgements.markdown */,
+				CCD3D8E677D2E4663EAE24FA79031144 /* Pods-My Demo App-acknowledgements.plist */,
+				007C787DA31B73DF99EA0392B99F14A6 /* Pods-My Demo App-dummy.m */,
+				D1F354524D626B360170C6F2C99C26EF /* Pods-My Demo App-frameworks.sh */,
+				41F8BCF6A085440024C13C225971F1BC /* Pods-My Demo App-Info.plist */,
+				24599A3E071406E6D4A22B2AC6CE2603 /* Pods-My Demo App-resources.sh */,
+				2006E0B0151AB539808DC899C3B5F8CE /* Pods-My Demo App-umbrella.h */,
+				8052A9C932B42F33F3B866326F807CEF /* Pods-My Demo App.debug.xcconfig */,
+				A9375FF332035949149144CAED1DF673 /* Pods-My Demo App.release.xcconfig */,
+			);
+			name = "Pods-My Demo App";
+			path = "Target Support Files/Pods-My Demo App";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -181,40 +245,23 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				8CF6E5AF780A19801FE4A8110053274F /* Pods */,
+				84D98EB386677A3179611AAA932ECC58 /* Pods */,
 				66AFBDDD6869B351E64AE8A207C80AE2 /* Products */,
-				15EE1CC7A38C5C3CCAA287672D473760 /* Targets Support Files */,
+				D7D8DDAD38028D0001EC1AE63EB2D7DA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F8E82B65DF13A7D8EA881458AA98C496 /* Pods-My Demo App */ = {
+		D7D8DDAD38028D0001EC1AE63EB2D7DA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C412D993C20B92FB9836A1936E6ED570 /* Pods-My Demo App.modulemap */,
-				92FA2191864FE69236DA5EAC393F14BA /* Pods-My Demo App-acknowledgements.markdown */,
-				A9C66D0F6F9191D5ED8A230567F2A9EC /* Pods-My Demo App-acknowledgements.plist */,
-				A9FABB0969C24D9DB6E6A2C444492F12 /* Pods-My Demo App-dummy.m */,
-				197D781AA15F58468C5D8BC7861F0F40 /* Pods-My Demo App-frameworks.sh */,
-				D205B3C2FC1C83F02330DAC1FF90EB65 /* Pods-My Demo App-Info.plist */,
-				178F1352DBE276A8C24237C7FF9A38E7 /* Pods-My Demo App-umbrella.h */,
-				80F85387C605509644179643EE021FEB /* Pods-My Demo App.debug.xcconfig */,
-				30A424E9C4FD61E012E384DB04D362CD /* Pods-My Demo App.release.xcconfig */,
+				C3CC403571E6B06F4BF1DC96E35B4B76 /* Pods-My Demo App */,
 			);
-			name = "Pods-My Demo App";
-			path = "Target Support Files/Pods-My Demo App";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		386D0CC462404B217935CE32AC35A0AB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20DB58EA54BF2EF472C44F2658FC5A89 /* Pods-My Demo App-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		479A5D97C7C0771FAABA745CA309B788 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,22 +271,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2436DB6C83BCD2193AAD316EE0ADABE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A44643E12395A737C0B90E359D0220 /* Pods-My Demo App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0A7CF19F6AD74065F8EC491DC65CA9A4 /* Pods-My Demo App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5B45EE967A44ED4DAFDF7ACCC0E6548 /* Build configuration list for PBXNativeTarget "Pods-My Demo App" */;
+			buildConfigurationList = FF436F5BBBBBA716A3E0FB297D739024 /* Build configuration list for PBXNativeTarget "Pods-My Demo App" */;
 			buildPhases = (
-				386D0CC462404B217935CE32AC35A0AB /* Headers */,
-				98AD32E4FF7B36C3A09CA687F084109A /* Sources */,
-				38548754F2C7C182205AA6F644F213FF /* Frameworks */,
-				D38BF419E8362B42D4240EF5290432EC /* Resources */,
+				F2436DB6C83BCD2193AAD316EE0ADABE /* Headers */,
+				6BE9156C8D0CDCFC0343D41B010310B0 /* Sources */,
+				8D21F86F863C3B6BC84BF7A17BFC8378 /* Frameworks */,
+				A1B5C3E0834B5636C3101C5A4666FDC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC5587A418117DEBC4BA5833BEECC67F /* PBXTargetDependency */,
+				440681DDDE16330BC46CE3D07B2FC947 /* PBXTargetDependency */,
+				B092804ADD71C91F8039ACD83F23DA16 /* PBXTargetDependency */,
 			);
 			name = "Pods-My Demo App";
 			productName = Pods_My_Demo_App;
@@ -288,12 +344,13 @@
 			targets = (
 				FA56E39EF6C470C3DFC0A23077F6D611 /* FormTextField */,
 				0A7CF19F6AD74065F8EC491DC65CA9A4 /* Pods-My Demo App */,
+				F60027FAE4C10A68998A12C22EDF64F3 /* TestFairy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D38BF419E8362B42D4240EF5290432EC /* Resources */ = {
+		A1B5C3E0834B5636C3101C5A4666FDC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,29 +387,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98AD32E4FF7B36C3A09CA687F084109A /* Sources */ = {
+		6BE9156C8D0CDCFC0343D41B010310B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4E6825BE4DDF35F716FB021A264C80 /* Pods-My Demo App-dummy.m in Sources */,
+				FE83D80276231D9DC75163815C6EEFCA /* Pods-My Demo App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC5587A418117DEBC4BA5833BEECC67F /* PBXTargetDependency */ = {
+		440681DDDE16330BC46CE3D07B2FC947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FormTextField;
 			target = FA56E39EF6C470C3DFC0A23077F6D611 /* FormTextField */;
-			targetProxy = FBDD16E89EAB93F9B6F9F2E6E4CFA870 /* PBXContainerItemProxy */;
+			targetProxy = B96D3794301FEF8B0088BBCD7C06C410 /* PBXContainerItemProxy */;
+		};
+		B092804ADD71C91F8039ACD83F23DA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestFairy;
+			target = F60027FAE4C10A68998A12C22EDF64F3 /* TestFairy */;
+			targetProxy = E6F5971D06FFB99B287641059BCCBA47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63EB0F93BA8E500F5D0AC14404EB8EA7 /* Debug */ = {
+		00801816348D4507092BCF92B088C92B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80F85387C605509644179643EE021FEB /* Pods-My Demo App.debug.xcconfig */;
+			baseConfigurationReference = 8052A9C932B42F33F3B866326F807CEF /* Pods-My Demo App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -387,9 +450,26 @@
 			};
 			name = Debug;
 		};
+		254A2FCD3D5C4271BE1FA7E59525523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88373AD3A39744B26466F5BD4C2E543 /* TestFairy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6A517093209A56570E33F9E5DB8F9712 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE3A666C709A1C7E8A378AA61B2EF7F7 /* FormTextField.release.xcconfig */;
+			baseConfigurationReference = FB9BD9217B14A8A18E827F23F0F82ED1 /* FormTextField.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -416,44 +496,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		785FE5E3E7274989651C303B22DD4085 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30A424E9C4FD61E012E384DB04D362CD /* Pods-My Demo App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-My Demo App/Pods-My Demo App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-My Demo App/Pods-My Demo App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -463,7 +505,7 @@
 		};
 		7EA9A9A1DC785863F9ACCD0DC31AA3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E32B7B088ED1491F8F639C30F48A6DD3 /* FormTextField.debug.xcconfig */;
+			baseConfigurationReference = 98BF95BCDF2FE61505EE63AD22562154 /* FormTextField.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -495,6 +537,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A912489C4C8274057D1C5528A1E08C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9375FF332035949149144CAED1DF673 /* Pods-My Demo App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-My Demo App/Pods-My Demo App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-My Demo App/Pods-My Demo App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -624,9 +704,34 @@
 			};
 			name = Release;
 		};
+		DB7E8863071F522E6F6AC7B22E44475B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5075239F8E863F69AA6B5E3E6CFE7B44 /* TestFairy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00205DB52B6B1E770BD75EA30CC76DC6 /* Build configuration list for PBXAggregateTarget "TestFairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7E8863071F522E6F6AC7B22E44475B /* Debug */,
+				254A2FCD3D5C4271BE1FA7E59525523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -645,11 +750,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5B45EE967A44ED4DAFDF7ACCC0E6548 /* Build configuration list for PBXNativeTarget "Pods-My Demo App" */ = {
+		FF436F5BBBBBA716A3E0FB297D739024 /* Build configuration list for PBXNativeTarget "Pods-My Demo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63EB0F93BA8E500F5D0AC14404EB8EA7 /* Debug */,
-				785FE5E3E7274989651C303B22DD4085 /* Release */,
+				00801816348D4507092BCF92B088C92B /* Debug */,
+				A912489C4C8274057D1C5528A1E08C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
