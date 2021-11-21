@@ -1,0 +1,18 @@
+{
+  "configurations" : [
+    {
+      "id" : "D6220CB4-825C-48A0-9FED-5D2F97C1429E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
