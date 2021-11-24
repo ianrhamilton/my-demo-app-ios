@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Uncomment the next line to define a global platform for your project
 platform :ios, '14.3'
 
@@ -10,5 +12,4 @@ target 'My Demo App' do
   pod 'TestFairy'
   pod 'FormTextField'
   pod 'EasyTipView'
-
 end
