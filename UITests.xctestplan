@@ -14,7 +14,10 @@
   "testTargets" : [
     {
       "skippedTests" : [
-        "My_Demo_AppUITests\/testNavigateCartToCatalog()"
+        "My_Demo_AppUITests\/testNavigateCartToCatalog()",
+        "My_Demo_OtherTests\/testOne()",
+        "My_Demo_OtherTests\/testTwo()",
+        "My_Demo_OtherTests\/testThree()"
       ],
       "target" : {
         "containerPath" : "container:MyDemoApp.xcodeproj",
