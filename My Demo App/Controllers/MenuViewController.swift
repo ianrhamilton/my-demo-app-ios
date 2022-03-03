@@ -112,6 +112,23 @@ class MenuViewController: UIViewController {
     @IBAction func moreButton(_ sender: Any) {
         
     }
+    
+    @IBAction func reportABug() {
+        TestFairyWrapper.showFeedbackForm()
+    }
+    
+    @IBAction func reportABugDebug() {
+        let storyboard = UIStoryboard.init(name: "Menu", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ReportABugDebugViewController") as! ReportABugDebugViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func pushNotification() {
+        let storyboard = UIStoryboard.init(name: "Menu", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PushNotificationsViewController") as! PushNotificationsViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func resetAppState() {
         Engine.sharedInstance.cartList.removeAll()
         Engine.sharedInstance.cartCount = 0
