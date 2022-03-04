@@ -13,9 +13,15 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "My_Demo_AppUITests\/testNavigateCartToCatalog()",
+        "My_Demo_OtherTests\/testOne()",
+        "My_Demo_OtherTests\/testTwo()",
+        "My_Demo_OtherTests\/testThree()"
+      ],
       "target" : {
-        "containerPath" : "container:My Demo App.xcodeproj",
-        "identifier" : "57A30B6F27D0999E00434120",
+        "containerPath" : "container:MyDemoApp.xcodeproj",
+        "identifier" : "A2C826A72706266600616582",
         "name" : "MyDemoAppUITests"
       }
     }
